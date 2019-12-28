@@ -23,6 +23,25 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+ul {
+  color: black;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.list-group {
+  width: 50%;
+}
+
+@media (max-width: 600px) {
+  .list-group {
+    width: 80%;
+  }
+}
 
 .App-link {
   color: #61dafb;
